@@ -45,8 +45,59 @@ Vamos a ir desde los más fáciles a los más difíciles... Comencemos!
 34. Aplicando continue, armar un ciclo while que solo imprima los valores divisibles por 12, dentro del rango de números de 100 a 300
 35. Crear un ciclo while que encuentre dentro del rango de 100 a 300 el primer número divisible por 3 y además múltiplo de 6
 
+## Estructuras de datos
+
+36. Crear una lista que contenga nombres de ciudades del mundo que contenga más de 5 elementos e imprimir por pantalla
+37. Imprimir por pantalla el segundo elemento de la lista
+38. Imprimir por pantalla del segundo al cuarto elemento
+39. Visualizar el tipo de dato de la lista
+40. Visualizar todos los elementos de la lista a partir del tercero de manera genérica, es decir, sin explicitar la posición del último elemento
+41. Visualizar los primeros 4 elementos de la lista
+42. Agregar dos ciudades más a la lista, una que ya exista y otra que no ¿Arroja algún tipo de error?
+43. Agregar otra ciudad, pero en la cuarta posición
+44. Concatenar otra lista a la ya creada
+45. Encontrar el índice de la ciudad que en el punto 42 agregamos duplicada. ¿Se nota alguna particularidad?
+46. ¿Qué pasa si se busca un elemento que no existe?
+47. Eliminar un elemento de la lista
+48. ¿Qué pasa si el elemento a eliminar no existe?
+49. Extraer el úlimo elemento de la lista, guardarlo en una variable e imprimirlo
+50. Mostrar la lista multiplicada por 4 (operaciones con listas)
+51. Crear una tupla que contenga los números enteros del 1 al 20
+52. Imprimir desde el índice 10 al 15 de la tupla
+53. Evaluar si los números 20 y 30 están dentro de la tupla
+54. Con la lista creada en el punto 36, validar la existencia del elemento 'Persia' y si no existe, agregarlo. Utilizar una variable e informar lo sucedido. Trata de ejecutar el codigo nuevamente. Se agrega de nuevo la ciudad?
+55. Mostrar la cantidad de veces que se encuentra un elemento específico dentro de la tupla y de la lista
+56. Convertir la tupla en una lista
+57. Desempaquetar solo los primeros 3 elementos de la tupla en 3 variables
+58. Crear un diccionario utilizando la lista crada en el punto 1, asignandole la clave "ciudad". Agregar tambien otras claves, como puede ser "Pais" y "Continente".
+59. Imprimir las claves del diccionario
+60. Imprimir las ciudades a través de su clave
+
+## Iteradores e iterables
+
+61. A partir de una lista vacía, utilizar un ciclo while para cargar allí números negativos del -15 al -1
+62. ¿Con un ciclo while sería posible recorrer la lista para imprimir sólo los números pares?
+63. Resolver el punto anterior sin utilizar un ciclo while
+64. Utilizar el iterable para recorrer sólo los primeros 3 elementos
+65. Utilizar la función **enumerate** para obtener dentro del iterable, tambien el índice al que corresponde el elemento.
+66. Dada la siguiente lista de números enteros entre 1 y 20, crear un ciclo donde se completen los valores faltantes: lista = [1,2,5,7,8,10,13,14,15,17,20]
+67. La sucesión de Fibonacci es un listado de números que sigue la fórmula: <br>
+    n<sub>0</sub> = 0<br>
+    n<sub>1</sub> = 1<br>
+    n<sub>i</sub> = n<sub>i-1</sub> + n<sub>i-2</sub><br>
+    Crear una lista con los primeros treinta números de la sucesión.<br>
+68. Realizar la suma de todos elementos de la lista del punto anterior
+69. A partir de la variable cadena ya dada, mostrar en qué posiciones aparece la letra "n"<br>
+    cadena = 'Hola Mundo. Esto es una practica del lenguaje de programación Python'
+70. Crear un diccionario e imprimir sus claves utilizando un iterador
+71. Convertir en una lista la variable "cadena" del punto 10 y luego recorrerla con un iterador
+72. Crear dos listas y unirlas en una tupla utilizando la función zip
+73. A partir de la siguiente lista de números, crear una nueva sólo si el número es divisible por 7<br>
+    lis = [18,21,29,32,35,42,56,60,63,71,84,90,91,100]
+74. A partir de la lista de a continuación, contar la cantidad total de elementos que contiene, teniendo en cuenta que un elemento de la lista podría ser otra lista:<br>
+    lis = [[1,2,3,4],'rojo','verde',[True,False,False],['uno','dos','tres']]
+75. Tomar la lista del punto anterior y convertir cada elemento en una lista si no lo es
+
 ## Problems
 
-1. You will build a program that takes a value, integer , and returns a list of its multiples up to another value, limit . If limit is a multiple of integer, it should be included as well. There will only ever be positive integers passed into the function, not consisting of 0. The limit will always be higher than the base.
-
-For example, if the parameters passed are (2, 6), the function should return [2, 4, 6] as 2, 4, and 6 are the multiples of 2 up to 6.
+1. You will build a program that takes a value, integer , and returns a list of its multiples up to another value, limit . If limit is a multiple of integer, it should be included as well. There will only ever be positive integers passed into the function, not consisting of 0. The limit will always be higher than the base. For example, if the parameters passed are (2, 6), the function should return [2, 4, 6] as 2, 4, and 6 are the multiples of 2 up to 6.
