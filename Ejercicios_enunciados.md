@@ -4,7 +4,7 @@ En este archivo vamos a encontrar varios ejercicios para resolver, practicar e i
 
 Vamos a ir desde los más fáciles a los más difíciles... Comencemos!
 
-## Problemas para conocer sobre: Variables (Basic)
+## Ejercicios sobre: Variables (Basic)
 
 1. Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla
 2. Imprimir el tipo de dato de la constante 8.5
@@ -30,7 +30,7 @@ Vamos a ir desde los más fáciles a los más difíciles... Comencemos!
 22. Realizar la operación 2 + '2' ¿Por qué no está permitido? ¿Si los dos operandos serían del mismo tipo, siempre arrojaría el mismo resultado?
 23. Realizar una operación válida entre valores de tipo entero y string
 
-## Problemas sobre Flujos de Control
+## Ejercicios sobre: Flujos de Control
 
 24. Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla si es mayor o menor a cero
 25. Crear dos variables y un condicional que informe si son del mismo tipo de dato
@@ -45,7 +45,7 @@ Vamos a ir desde los más fáciles a los más difíciles... Comencemos!
 34. Aplicando continue, armar un ciclo while que solo imprima los valores divisibles por 12, dentro del rango de números de 100 a 300
 35. Crear un ciclo while que encuentre dentro del rango de 100 a 300 el primer número divisible por 3 y además múltiplo de 6
 
-## Estructuras de datos
+## Ejercicios sobre: Estructuras de datos
 
 36. Crear una lista que contenga nombres de ciudades del mundo que contenga más de 5 elementos e imprimir por pantalla
 37. Imprimir por pantalla el segundo elemento de la lista
@@ -73,7 +73,7 @@ Vamos a ir desde los más fáciles a los más difíciles... Comencemos!
 59. Imprimir las claves del diccionario
 60. Imprimir las ciudades a través de su clave
 
-## Iteradores e iterables
+## Ejercicios sobre: Iteradores e iterables
 
 61. A partir de una lista vacía, utilizar un ciclo while para cargar allí números negativos del -15 al -1
 62. ¿Con un ciclo while sería posible recorrer la lista para imprimir sólo los números pares?
@@ -90,8 +90,31 @@ Vamos a ir desde los más fáciles a los más difíciles... Comencemos!
 69. A partir de la variable cadena ya dada, mostrar en qué posiciones aparece la letra "n"<br>
     cadena = 'Hola Mundo. Esto es una practica del lenguaje de programación Python'
 70. Crear un diccionario e imprimir sus claves utilizando un iterador
-71. Convertir en una lista la variable "cadena" del punto 10 y luego recorrerla con un iterador
+71. Convertir en una lista la variable "cadena" del punto 69 y luego recorrerla con un iterador
+
+### Funcion <b>zip</b></br>
+
+Esta funcion se utiliza para combinar elementos de una o más secuencias (como listas o tuplas) en una secuencia de tuplas. Cada tupla resultante contiene elementos de las secuencias originales, emparejados según su posición en esas secuencias. En otras palabras, zip() toma elementos de la misma posición de múltiples secuencias y los agrupa en una tupla.</br>
+
+A menudo se convierte el resultado de zip() en una lista es porque zip() en sí mismo devuelve un objeto zip, que es un iterador. Este objeto zip es eficiente en términos de uso de memoria ya que no crea una nueva lista para almacenar los elementos combinados, sino que genera las combinaciones a medida que se solicitan. Esto puede ser beneficioso en situaciones en las que estás trabajando con grandes conjuntos de datos, ya que evita la necesidad de crear una nueva lista que consuma más memoria.</br>
+
 72. Crear dos listas y unirlas en una tupla utilizando la función zip
+
+### Comprension de listas</br>
+
+Es un concepto fundamental en Python. Se refiere a una técnica que permite crear nuevas listas (u otras secuencias) a partir de secuencias existentes, de manera concisa y legible. Las comprensiones de lista son una característica poderosa y elegante del lenguaje Python que facilita la creación y manipulación de listas.</br>
+La sintaxis básica de una comprensión de lista es la siguiente:</br>
+nueva_lista = [expresion for elemento in secuencia if condicion]</br>
+donde:</br>
+</br>
+a. <b>nueva_lista</b>: La lista resultante que se crea a partir de la comprensión.</br>
+b. <b>expresion</b>: Una expresión que se evalúa para cada elemento de la secuencia.</br>
+c. <b>elemento</b>: La variable que representa cada elemento de la secuencia.</br>
+d. <b>secuencia</b>: La secuencia (por ejemplo, una lista, tupla o rango) de la cual se toman los elementos.</br>
+e. <b>condicion (opcional)</b>: Una condición que filtra los elementos de la secuencia antes de que se incluyan en la nueva lista.</br>
+</br>
+La comprensión de lista itera a través de la secuencia original, aplica la expresión a cada elemento y, si la condición es True, agrega el resultado a la nueva lista. Esto permite crear nuevas listas de manera eficiente y legible.</br>
+
 73. A partir de la siguiente lista de números, crear una nueva sólo si el número es divisible por 7<br>
     lis = [18,21,29,32,35,42,56,60,63,71,84,90,91,100]
 74. A partir de la lista de a continuación, contar la cantidad total de elementos que contiene, teniendo en cuenta que un elemento de la lista podría ser otra lista:<br>
