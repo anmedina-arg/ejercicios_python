@@ -121,6 +121,18 @@ La comprensión de lista itera a través de la secuencia original, aplica la exp
     lis = [[1,2,3,4],'rojo','verde',[True,False,False],['uno','dos','tres']]
 75. Tomar la lista del punto anterior y convertir cada elemento en una lista si no lo es. Conservar los elementos dentro de la misma lista
 
+## Funciones
+
+76. Crea una función que reciba una lista de números y devuelva la suma de todos los elementos.
+77. Crear una función que reciba un número como parámetro y devuelva True si es primo y False si no lo es
+78. Utilizando la función del punto anterior, realizar otra función que reciba de parámetro una lista de números y devuelva sólo aquellos que son primos en otra lista
+79. Crear una función que al recibir una lista de números, devuelva el que más se repite y cuántas veces lo hace. Si hay más de un "más repetido", que devuelva cualquiera
+80. Crear una función que convierta entre grados Celsius, Farenheit y Kelvin<br>
+    Fórmula 1 : (°C × 9/5) + 32 = °F<br>
+    Fórmula 2 : °C + 273.15 = °K<br>
+    Debe recibir 3 parámetros: el valor, la medida de orígen y la medida de destino
+81. Armar una función que devuelva el factorial de un número. Tener en cuenta que el usuario puede equivocarse y enviar de parámetro un número no entero o negativo
+
 ## Problems
 
 1. You will build a program that takes a value, integer , and returns a list of its multiples up to another value, limit . If limit is a multiple of integer, it should be included as well. There will only ever be positive integers passed into the function, not consisting of 0. The limit will always be higher than the base. For example, if the parameters passed are (2, 6), the function should return [2, 4, 6] as 2, 4, and 6 are the multiples of 2 up to 6.
