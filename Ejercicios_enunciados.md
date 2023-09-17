@@ -119,8 +119,19 @@ La comprensión de lista itera a través de la secuencia original, aplica la exp
     lis = [18,21,29,32,35,42,56,60,63,71,84,90,91,100]
 74. A partir de la lista de a continuación, contar la cantidad total de elementos que contiene, teniendo en cuenta que un elemento de la lista podría ser otra lista:<br>
     lis = [[1,2,3,4],'rojo','verde',[True,False,False],['uno','dos','tres']]
-75. Tomar la lista del punto anterior y convertir cada elemento en una lista si no lo es
+75. Tomar la lista del punto anterior y convertir cada elemento en una lista si no lo es. Conservar los elementos dentro de la misma lista
 
 ## Problems
 
 1. You will build a program that takes a value, integer , and returns a list of its multiples up to another value, limit . If limit is a multiple of integer, it should be included as well. There will only ever be positive integers passed into the function, not consisting of 0. The limit will always be higher than the base. For example, if the parameters passed are (2, 6), the function should return [2, 4, 6] as 2, 4, and 6 are the multiples of 2 up to 6.
+
+## **Validación de Nombre de Usuario en Codeland**
+
+Toma el parámetro de función `CodelandUsernameValidation(str)` y determina si la cadena es un nombre de usuario válido según las siguientes reglas:
+
+1. El nombre de usuario tiene entre 4 y 25 caracteres.
+2. Debe comenzar con una letra.
+3. Solo puede contener letras, números y el carácter guión bajo (\_).
+4. No puede terminar con el carácter guión bajo (\_).
+
+Si el nombre de usuario es válido, tu programa debería devolver la cadena "true", de lo contrario, debería devolver la cadena "false".
