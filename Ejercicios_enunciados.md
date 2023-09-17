@@ -133,6 +133,13 @@ La comprensión de lista itera a través de la secuencia original, aplica la exp
     Debe recibir 3 parámetros: el valor, la medida de orígen y la medida de destino
 81. Armar una función que devuelva el factorial de un número. Tener en cuenta que el usuario puede equivocarse y enviar de parámetro un número no entero o negativo
 
+## Ejercicios sobre Clases y Programación Orientada a Objetos
+
+82. Crear la clase vehículo que contenga los atributos:<br>
+    Color<br>
+    Si es moto, auto, camioneta ó camión<br>
+    Cilindrada del motor
+
 ## Problems
 
 1. You will build a program that takes a value, integer , and returns a list of its multiples up to another value, limit . If limit is a multiple of integer, it should be included as well. There will only ever be positive integers passed into the function, not consisting of 0. The limit will always be higher than the base. For example, if the parameters passed are (2, 6), the function should return [2, 4, 6] as 2, 4, and 6 are the multiples of 2 up to 6.
